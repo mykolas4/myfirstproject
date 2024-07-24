@@ -1,0 +1,90 @@
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #f77474;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content .logo-large {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero .button {
+  background-color: white;
+  color: #f77474;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.featured-projects {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.featured-projects h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
